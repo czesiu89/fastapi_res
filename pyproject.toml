@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "cisco_ping"
+name = "fastapi_pres"
 version = "0.1.0"
 description = "A service for checking given URL-s output"
 authors = ["Pawel Czech"]

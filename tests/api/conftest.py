@@ -4,7 +4,7 @@ import pytest
 from typing import Generator
 from fastapi.testclient import TestClient
 
-from cisco_ping.app import app
+from fastapi_pres.app import app
 
 
 @pytest.fixture(scope="session")

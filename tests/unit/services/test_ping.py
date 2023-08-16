@@ -2,8 +2,8 @@ import httpx
 import json
 import pytest
 
-from cisco_ping.errors import RequestConnectionError, RequestDecodeError, RequestInvalidResponse
-from cisco_ping.services.ping import PingService
+from fastapi_pres.errors import RequestConnectionError, RequestDecodeError, RequestInvalidResponse
+from fastapi_pres.services.ping import PingService
 
 
 @pytest.mark.asyncio
