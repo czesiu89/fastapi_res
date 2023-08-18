@@ -8,4 +8,4 @@ def test_return_200_and_hardcoded_message(client: TestClient):
     content = response.json()
 
     assert response.status_code == http.HTTPStatus.OK
-    assert content == {"Receiver": "Cisco is the best"}
+    assert content == {"Receiver": "FastAPI is the best"}
